@@ -1,6 +1,6 @@
 // chackUserName()==chackUserDate()
 function chackAllFun() {
-    if (chackUserPhone()==true) {
+    if (chackUserPassword()==true) {
         return true
     }
     return false
@@ -52,11 +52,13 @@ function chackAllFun() {
 //     return false
 // }
 
-var userName =document.getElementById("userName")
-var limit10D = "\d{10}"
-function chackUserName() {
-    if (userName.value==limit10D) {
+var userPassword1 =document.getElementById("userPassword1")
+function chackUserPassword() {
+    var passwordRegex =/^[A-Z]$/ ;
+    if (userPassword1.value[0].UpperCase()==true) {
+        alert("yes")
         return true
     }
+    alert("no")
     return false
 }
