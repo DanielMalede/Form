@@ -54,7 +54,6 @@ function chackAllFun() {
 
 var userPassword1 =document.getElementById("userPassword1")
 function chackUserPassword() {
-    var passwordRegex =/^[A-Z]$/ ;
     if (userPassword1.value[0].UpperCase()==true) {
         alert("yes")
         return true
