@@ -1,10 +1,10 @@
 // chackUserName()==chackUserDate()
-function chackAllFun() {
-    if (chackUserPassword()==true) {
-        return true
-    }
-    return false
-}
+// function chackAllFun() {
+//     if (chackUserPassword()==true) {
+//         return true
+//     }
+//     return false
+// }
 
 // var userName =document.getElementById("userName")
 // var userLastName =document.getElementById("lastName")
